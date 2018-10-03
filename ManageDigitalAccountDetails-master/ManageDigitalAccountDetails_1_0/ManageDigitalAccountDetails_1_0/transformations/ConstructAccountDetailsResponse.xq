@@ -13,5 +13,4 @@ declare function xf:ConstructAccountDetailsResponse($anyType as element(*))
 };
 
 declare variable $anyType as element(*) external;
-
 xf:ConstructAccountDetailsResponse($anyType)
