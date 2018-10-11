@@ -8,7 +8,7 @@ declare namespace xf = "http://tempuri.org/ManageCreditScore_1_0/transformations
 declare function xf:dfdgdfg($updateCreditScoreResponse as element(ns0:updateCreditScoreResponse),$incomingRequest as element(*))
     as element(ns1:updateCreditScoreResponse) {
         <ns1:updateCreditScoreResponse>
-            <ns1:accountNumber>{ data($incomingRequest/ns1:updateCreditScore/ns1:accountNumber) }</ns1:accountNumber>
+            <ns1:accountNumber>{ data($incomingRequest/*:updateCreditScore/ns1:accountNumber) }</ns1:accountNumber>
         </ns1:updateCreditScoreResponse>
 };
 
