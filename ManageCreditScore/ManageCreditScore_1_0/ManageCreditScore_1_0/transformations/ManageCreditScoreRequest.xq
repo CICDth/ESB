@@ -21,6 +21,7 @@ declare function xf:ManageCreditScoreRequest($updateCreditScore1 as element(ns1:
                 <ns0:isInternationalRoaming>{ data($updateCreditScore1/ns1:creditScoreDetails/ns1:isInternationalRoaming) }</ns0:isInternationalRoaming>
             </ns0:creditScoreDetails>
         </ns0:updateCreditScore>
+		
 };
 
 declare variable $updateCreditScore1 as element(ns1:updateCreditScore) external;
