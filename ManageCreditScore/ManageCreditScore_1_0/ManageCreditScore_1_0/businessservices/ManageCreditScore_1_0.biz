@@ -21,6 +21,7 @@
   <ser:endpointConfig>
     <tran:provider-id>http</tran:provider-id>
     <tran:inbound>false</tran:inbound>
+	
     <tran:URI>
       <env:value>http://localhost:7030/sim/ServiceFactory/prepay/ManageCreditScore_1_0</env:value>
     </tran:URI>

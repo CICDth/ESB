@@ -39,6 +39,7 @@
       <http:inbound-properties/>
     </tran:provider-specific>
   </ser:endpointConfig>
+  
   <ser:router errorHandler="_onErrorHandler-2735924137246977291-6c0b529d.163cf24ca11.-75be">
     <con:pipeline type="request" name="PipelinePairNode1_request">
       <con:stage name="Logging_ManageContract_Request">
