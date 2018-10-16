@@ -12,6 +12,7 @@ declare function xf:ManageCreditScoreResponse($updateCreditScore1 as element(ns0
         </ns1:updateCreditScoreResponse>
 };
 
+
 declare variable $updateCreditScore1 as element(ns0:updateCreditScore) external;
 
 xf:ManageCreditScoreResponse($updateCreditScore1)
