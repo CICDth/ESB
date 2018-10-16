@@ -10,6 +10,7 @@ declare function xf:dfdgdfg($updateCreditScoreResponse as element(ns0:updateCred
         <ns1:updateCreditScoreResponse>
             <ns1:accountNumber>{ data($incomingRequest/*:updateCreditScore/ns1:accountNumber) }</ns1:accountNumber>
         </ns1:updateCreditScoreResponse>
+		
 };
 
 declare variable $updateCreditScoreResponse as element(ns0:updateCreditScoreResponse) external;
