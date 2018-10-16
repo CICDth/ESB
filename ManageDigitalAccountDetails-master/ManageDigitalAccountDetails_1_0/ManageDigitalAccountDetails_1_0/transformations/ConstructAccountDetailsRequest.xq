@@ -14,5 +14,4 @@ declare function xf:ConstructAccountDetailsRequest($anyType as element(*),$confi
 
 declare variable $anyType as element(*) external;
 declare variable $configXML as element(*) external;
-
 xf:ConstructAccountDetailsRequest($anyType,$configXML)
